@@ -34,3 +34,24 @@ Proporções ao invés valores fixos
 
 ler CSS SECRET
 ```
+---
+
+# CSS Media Queries
+
+Condições que aplicam estilos diferentes em telas diferentes
+
+## Sintaxe:
+**@** - indica um at-rule
+**media** - significa que a regra vai depender de características da mídia
+**screen** - tipo de midia (tela)
+**and** - operador lógico, combina condições
+**(max-width: 768px)** - condição de largura
+**{}** - estilos aplicados na condição
+
+```
+@media screen and (max-width: 768px){ /*até 768px essas condições são aplicadas*/
+  body{
+    background: blue;
+  }
+}
+```
