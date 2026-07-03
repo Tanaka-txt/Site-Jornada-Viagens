@@ -1,0 +1,18 @@
+header{
+  width: 100%; /*Responsividade de largura*/
+  height: 138px;
+  background-color: var(--background-tertiary-color);
+}
+
+.bussola{
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+  margin: 37px 0 0 48px; /*Top, dir, bottom, Esq*/
+}
+
+.menu{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
