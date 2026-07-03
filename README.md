@@ -55,3 +55,11 @@ Condições que aplicam estilos diferentes em telas diferentes
   }
 }
 ```
+
+---
+
+# Conceito Importante Antes de iniciar hands-on! ==> Mobile First
+-> Primeiro desenvolver pelo mobile
+
+# Progressive Emhamcement --> Melhorias progressivamente 
+---
