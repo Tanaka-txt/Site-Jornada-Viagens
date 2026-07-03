@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf); /*Caminho da font*/
+  font-style: normal; /*Estilo de fornte*/
+  font-display: swap; /*Font que será usada se caso o site não carregar a font padrão*/
+}
+
 /*
 Background
 Botoes
@@ -11,13 +18,34 @@ Cores de texto
   --background-secondary-color: #F5F5F5; 
   --background-tertiary-color: #000000; 
 
-  --button-primary-color: #8F0101;
-  --button-secondary-color: ##B81515;
+  --primary-color: #8F0101;
+  --secondary-color: #B81515;
 
   --text-primary-color: #222222;
   --text-secondary-color: #FFFFFF;
 
+/*
+Header Weight (500) 
+Footer Weight (400)
+Card 
+  Weight (700)
+  Weight (400)
+
+*/
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-wieght: 500;
 }
+
+/*
+Header Weight (500) 
+Footer Weight (400)
+Card 
+  Weight (700)
+  Weight (400)
+
+*/
 
 /* CSS Reset */
 
