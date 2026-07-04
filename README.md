@@ -62,4 +62,87 @@ Condições que aplicam estilos diferentes em telas diferentes
 -> Primeiro desenvolver pelo mobile
 
 # Progressive Emhamcement --> Melhorias progressivamente 
+
+---
+
+# Flexbox
+
+-> Containers = qualquer objeto que possa conter outros objetos dentro
+```
+.container{
+  display: flex; /*para se comportar de maneira flex*/
+
+}
+```
+
+### Flex-direction = indica a direção dos itens
+row = esquerda para direita
+row-reverse = direita para esquerda
+column = mesmo que o row mas de cima para baixo
+
+![direction](image.png)
+
+```
+ _      _      _      _
+|_| -> |_| -> |_| -> |_|  = row
+ _      _      _      _
+|_| <- |_| <- |_| <- |_|  = row-reverse
+
+column  |  column-reverse
+   _             _
+  |_|           |_|
+   |             ^
+   v             |
+   _             _
+  |_|           |_|
+   |             ^
+   v             |
+   _             _
+  |_|           |_|
+
+
+.container{
+  display: flex;
+  flex-direction: flex-direction: row | row-reverse | column | column-reverse
+}
+
+```
+
+### flex-wrap = controle de quebra de linha
+nowrap = todos os flex itens ficarão em uma só linha
+wrap = quebram em multiplas linhas de cima para baixo
+wrap-reverse = quebram em multiplas linhas de baixo para cima
+![alt text](./img_readme/image-1.png)
+```
+ _  _  ___  _____
+|_||_||___||_____| ---
+  ___________________|
+  |    _  _  ___  _____
+  |-> |_||_||___||_____|
+  
+```
+
+### Justify-content = alinha os itens ao longo do eixo principal
+
+![alt text](./img_readme/image-2.png)
+
+### Align-itens = alinhas os itens no eixo transversal
+![alt text](./img_readme/image-3.png)
+
+###  Align-content = alinhas as linhas quando temos multiplas linhas no eixo vertical
+![alt text](./img_readme/image%20copy.png)
+
+## Organizar itens FILHOS
+
+### Order = define a ordem visual dos itens sem alterar o HTML
+![alt text](./img_readme/image4.png)
+
+### flex-grow / flex-shrink = quanto um item pode crescer/encolher para ocupar o espaço
+![alt text](./img_readme/image5.png)
+
+### align-self = sobreescreve o alinhamento transversal do item indiidual
+![alt text](./img_readme/image6.png)
+
+https://www.alura.com.br/artigos/css-guia-do-flexbox?utm_source=gnarus&utm_medium=timeline
+
 ---

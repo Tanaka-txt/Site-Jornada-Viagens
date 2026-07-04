@@ -1,18 +1,26 @@
 header{
-  width: 100%; /*Responsividade de largura*/
-  height: 138px;
+  /* width: 100%; Responsividade de largura */
+  /* height: 138px; */
   background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
 }
 
-.bussola{
+.logo{
   display: inline-block;
-  width: 68px;
-  height: 64px;
-  margin: 37px 0 0 48px; /*Top, dir, bottom, Esq*/
+  width: 60px;
+  height: 62px;
 }
 
 .menu{
-  display: inline-block;
   width: 32px;
-  height: 32px;
+  height: 20px;
+  margin-top: 22px;
+}
+
+nav{
+  display: none;
 }
