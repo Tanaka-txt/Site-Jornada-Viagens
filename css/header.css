@@ -18,7 +18,15 @@ header{
 .menu{
   width: 32px;
   height: 20px;
+}
+
+.navigation-menu{
   margin-top: 22px;
+}
+
+/*Seletor de irmandade ~ => diz pro nagevador pegar o irmão que passar pra ele*/
+input[type="checkbox"]:checked ~ nav { /* quando eu seleciono ele vai pegaro input irmão nav e vai deixar displai block */
+  display: block;
 }
 
 nav{
